@@ -12,7 +12,7 @@ function! NextDir()
                 execute 'cd' dir
                 :e *einkunn*
                 :NERDTreeCWD
-                break 
+                return 
           endif
       endif
   endfor
@@ -29,7 +29,7 @@ function! PrevDir()
                 execute 'cd' dir
                 :e *einkunn*
                 :NERDTreeCWD
-                break 
+                return 
           endif
       endif
   endfor
