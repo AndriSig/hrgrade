@@ -16,6 +16,7 @@ function! NextDir()
           endif
       endif
   endfor
+  execute 'cd' current
 endfunction
 
 function! PrevDir()
@@ -33,4 +34,5 @@ function! PrevDir()
           endif
       endif
   endfor
+  execute 'cd' current
 endfunction
