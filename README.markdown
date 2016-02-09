@@ -1,11 +1,11 @@
 #hrgrade, a simple script made to make myschool grading slightly less painful.
 
 ##Suggested keymappings
-'''
+```vim
 nnoremap <leader>nd :call NextDir()<cr>
 nnoremap <leader>pd :call PrevDir()<cr>
 nnoremap <leader>rg yiw:Rename <c-r>=expand("<cWORD>")<cr>-einkunn.txt
-'''
+```
 
 The first two will go to the next or previous assignment.
 
@@ -24,11 +24,11 @@ And just have to press enter to submit the change
 
 Now for this plugin to work you are going to have to have
 
-'''
+```vim
 Plugin 'scrooloose/nerdtree.git'
 Bundle 'tpope/vim-eunuch'
 Bundle 'ivalkeen/nerdtree-execute'
-'''
+```
 
 Now you might say "Wait a minute? It doesn't actually use all of those!"
 
