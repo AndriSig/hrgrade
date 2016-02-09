@@ -1,6 +1,3 @@
-let g:lopen_on = 0
-let g:quickfix_on = 0
-
 function! NextDir()
     let current = split(getcwd(), '/')[-1]
     execute 'cd..'
